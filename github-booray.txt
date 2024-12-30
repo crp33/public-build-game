@@ -1,0 +1,33 @@
+# Oh Hey BooRay Simulator
+
+Simulates the Oh Hey BooRay casino card game to calculate house edge and frequencies.
+
+## Setup
+
+1. Clone repository
+```bash
+git clone https://github.com/yourusername/oh-hey-booray.git
+cd oh-hey-booray
+```
+
+2. Create virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install dependencies
+```bash
+pip install numpy pandas
+```
+
+## Files
+
+- `booray_simulation.py`: Main simulation code
+- `requirements.txt`: Dependencies
+
+## Running Simulation
+
+```bash
+python booray_simulation.py
+```
